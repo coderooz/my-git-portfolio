@@ -2,7 +2,7 @@
 
 const projectsContainer = document.getElementById('projects');
 
-fetch('https://api.github.com/users/coderooz/repos)
+fetch('https://api.github.com/users/coderooz/repos')
     .then(response => response.json())
     .then(data => {
         data.forEach(project => {
